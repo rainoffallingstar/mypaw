@@ -12,8 +12,8 @@ logs-dir: "/tmp/logs"
 
 # 管理后台
 remote-management:
-  panel-github-repository: "https://github.com/kongkongyo/Cli-Proxy-API-Management-Center"
-  
+  enabled: true
+  secret-key: "${MANAGEMENT_PASSWORD}"
 
 # 性能配置
 commercial-mode: true
