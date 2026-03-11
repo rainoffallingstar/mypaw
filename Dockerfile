@@ -25,3 +25,4 @@ EXPOSE 7860
 
 # 直接运行，不使用 Nginx
 CMD ["./cli-proxy-api", "--config", "/app/config.yaml"]
+
