@@ -11,7 +11,7 @@ WORKDIR /app
 RUN cp /CLIProxyAPI/CLIProxyAPI ./cli-proxy-api && chmod +x ./cli-proxy-api
 
 # 创建必要目录
-RUN mkdir -p /tmp/.cli-proxy-api /tmp/logs /tmp/pg_cache/pgstore \
+RUN mkdir -p /tmp/.cli-proxy-api /tmp/logs \
     && chmod -R 777 /tmp
 
 # 复制配置文件
