@@ -2,6 +2,9 @@
 host: "0.0.0.0"
 port: 7860
 
+# 数据存储（本地模式，不使用远端 PostgreSQL）
+pgstore-dsn: ""
+
 # 目录配置（使用 /tmp 避免权限问题）
 auth-dir: "/tmp/.cli-proxy-api"
 logging-to-file: true
